@@ -21,7 +21,7 @@ public class PhysicsController {
     @RequestMapping(value= "", method = RequestMethod.GET, produces = MediaType.APPLICATION_JSON_VALUE)
     public List<Physics> getAllPhysicsTopics() {
         return service.getPhysicstopics();
-    }
+    }//oooo
 
     @RequestMapping(value = "{id}", method = RequestMethod.GET, produces = MediaType.APPLICATION_JSON_VALUE)
     public Physics getPhysicsTopicById(@PathVariable String id) {
